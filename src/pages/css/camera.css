@@ -1,0 +1,44 @@
+#beforeTake, #onTake, #Loading {
+  position: absolute;
+  bottom: 20vh;
+}
+
+#beforeTake button{
+  padding: 0.5% 3%;
+  margin: 0.5%;
+}
+
+#onTake button, #Loading button{
+  padding: 0.5% 2%;
+  margin: 0.5%;
+}
+
+#onTake, #Loading {
+  display: none;
+}
+
+#beforeTake {
+  display: block;
+}
+
+#camera--sensor {
+  display: none;
+}
+
+#camera--view {
+  display: block;
+}
+
+#camera--view,
+#camera--sensor {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+#logo {
+  position: absolute;
+  z-index: 11;
+}

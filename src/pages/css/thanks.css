@@ -1,0 +1,16 @@
+#main {
+    background-image: url("../../assets/images/happy_people.png");
+    background-color: #121212; 
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+hr{
+    margin:2% 40%;
+}
+
+#team_name {
+font-size: x-small;
+}

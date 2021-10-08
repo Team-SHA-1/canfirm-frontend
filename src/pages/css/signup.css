@@ -1,0 +1,57 @@
+#logo {
+    position: absolute;
+  }
+  .form-text {
+    color: rgb(221, 221, 221) !important;
+  }
+
+  #signupRow {
+    min-height: 100vh;
+    background: url(../../assets/images/world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  a {
+    color: inherit;
+    text-decoration-color: white !important;
+  }
+
+  #team_name {
+    font-size: x-small;
+  }
+
+  #herotext {
+    display: block;
+    position: absolute;
+    font-size: 6rem;
+    bottom: 0vh;
+    width: 25%;
+  }
+
+  .reasons {
+    width: 10vh;
+    margin: 2vh;
+  }
+
+  #info {
+    padding: 20vh 15vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #herotext,
+    #picture {
+      display: none;
+    }
+    .row {
+      padding: 20vh 0 10vh 0;
+    }
+    .reasons {
+      width: 5vh;
+      margin: 1vh;
+    }
+    #info {
+    padding: 5vh 2vh;
+  }
+  }
